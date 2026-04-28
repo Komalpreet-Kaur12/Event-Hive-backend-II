@@ -1,0 +1,44 @@
+blog website
+
+user:
+id
+full name
+username
+email
+password
+age
+address
+gender
+role
+created at
+updated at
+is delete
+
+
+register:
+new user= req post
+username required unique:true
+email required unique:true
+password required hashed(encoded)
+confirm password required hashed(encoded)
+name required
+gender optional
+role default customer/normal user : admin
+age required
+address optional
+
+
+login : post
+req
+username/email
+password
+
+
+session: server side
+cookies: client side  
+
+
+
+response : jwt(json web token)
+
+admin dashboard:
